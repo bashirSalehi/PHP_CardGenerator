@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" style="direction: rtl;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Card Generator</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="assets/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="assets/css/style.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="row wow fadeIn mt-5">
+    <!-- Grid row -->
+    <div class="col-md-1">
+    </div>
+    <!-- Grid column -->
+    <div class="col-md-10">
+
+        <form class="border border-light p-5 text-right" action="CardGenerator/CardGenerator.php" method="post">
+
+            <p class="h5 mb-4 text-center"> اطلاعات مورد نیاز برای درج در کارت را وارد کنید</p>
+            <p class="h6 mb-4 text-center">(برای مشاهده با اطلاعات پیش فرض مقادیر را تغییر ندهید)</p>
+
+            <label for="textInput">فیلد اول:</label>
+            <input type="text" id="textInput" class="form-control mb-4" name="first_field" value="سعید سلطانی" required>
+
+            <label for="textInput">فیلد دوم:</label>
+            <input type="text" id="textInput" class="form-control mb-4" name="second_field"value="طراح رابط کاربری" required>
+
+            <label for="textInput">فیلد سوم:</label>
+            <input type="text" id="textInput" class="form-control mb-4" name="third_field" value="ساکن تهران" required>
+
+            <button class="btn btn-info btn-block" type="submit">ساخت کارت</button>
+        </form>
+    </div>
+</div>
+
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="assets/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="assets/js/mdb.min.js"></script>
+<!-- Initializations -->
+<script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+</script>
+</body>
+</html>
